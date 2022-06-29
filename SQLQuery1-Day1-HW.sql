@@ -64,7 +64,7 @@ Order By p.Name
 --but is then not followed by the letter K. After this zero or more letters can exists. Order the result set by the Name column.
 Select p.Name [Name], p.ListPrice [ ListPrice]
 From Production.Product p
-Where p.Name like '[A|S]%' AND  p.Name not like '%K%'
+Where p.Name like 'SPO%' AND  p.Name not like '%K%'
 Order By p.Name
 
 --14.Write a query that retrieves unique colors from the table Production.Product. Order the results  in descending  manner
