@@ -104,6 +104,27 @@ From Orders o
 --and also the city of most total quantity of products ordered from. (tip: join  sub-query)
 
 
+Select t1.city
+From(
+select top 1 count(o.orderID) as 'num_orders'
+, e.City
+from Orders o
+left join Employees e on (e.EmployeeID = o.EmployeeID)
+group by o.EmployeeID, e.City
+order by num_orders desc) t1
+
+Intersect
+
+Select t2.ShipCity
+From(
+select top 1 sum(od.Quantity) as 'total_order'
+, o.ShipCity
+from .[Order Details] od
+left join Orders o on (o.OrderID = od.OrderID)
+
+group by o.ShipCity
+order by total_order desc) t2
+
 
 --11. How do you remove the duplicates record of a table?
 With CTE 
