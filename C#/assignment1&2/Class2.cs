@@ -170,26 +170,26 @@ namespace _02UnderstandingTypes
             String[] array = str.Split(" ");
             String[] arrayWithoutPun = str.Split(separators);
             List<string> list = new List<string>();
+
             for(int i = arrayWithoutPun.Length -1; i>=0;i--) {
-                if (arrayWithoutPun[i] != " ") {
+                if (!string.IsNullOrEmpty(arrayWithoutPun[i])) {
                     list.Add(arrayWithoutPun[i].Trim());
                 }
             }
-            Console.WriteLine(String.Join(" ", list));
+            //Console.WriteLine(String.Join(" ", list));
             for (int j =0; j<array.Length;j++)
             {
                 foreach (char c in array[j])
                 {
                     if (separators.Contains(c)) {
-                        //Console.WriteLine(j);
-                        //Console.WriteLine(list[j]);
-                        //Console.WriteLine(String.Join(" ", arrayWithoutPun[j].ToCharArray().Append(c)));
+                        String newStr = list[j]+ c;
+                        list[j] = list[j].Replace(list[j], newStr);
                     }
                     
                 }                   
 
             }
-            return String.Join(" ", arrayWithoutPun);
+            return String.Join(" ", list);
         }
      
      
