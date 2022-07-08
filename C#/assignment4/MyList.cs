@@ -26,7 +26,11 @@ namespace Day4_HW
             Items = values;
         }
         public T Remove(int index) {
-            if (Size == 0) { return null; } // ??
+            if (Size == 0)
+            {
+                throw new NotImplementedException();
+            } 
+
 
             T[] values = new T[Items.Length -1];
             T element = Items[index];
