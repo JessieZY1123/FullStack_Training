@@ -1,0 +1,15 @@
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\bin\Debug\net6.0\Day3_HW.exe
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\bin\Debug\net6.0\Day3_HW.deps.json
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\bin\Debug\net6.0\Day3_HW.runtimeconfig.json
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\bin\Debug\net6.0\Day3_HW.dll
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\bin\Debug\net6.0\Day3_HW.pdb
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.csproj.AssemblyReference.cache
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.AssemblyInfoInputs.cache
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.AssemblyInfo.cs
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.csproj.CoreCompileInputs.cache
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.dll
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\refint\Day3_HW.dll
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.pdb
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\Day3_HW.genruntimeconfig.cache
+C:\Users\hutud\source\repos\CSharpTraining\ConsoleApp1\obj\Debug\net6.0\ref\Day3_HW.dll
