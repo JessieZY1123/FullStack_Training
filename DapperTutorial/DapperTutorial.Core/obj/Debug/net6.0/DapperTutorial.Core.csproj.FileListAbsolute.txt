@@ -1,0 +1,12 @@
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\bin\Debug\net6.0\DapperTutorial.Core.deps.json
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\bin\Debug\net6.0\DapperTutorial.Core.dll
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\bin\Debug\net6.0\DapperTutorial.Core.pdb
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.csproj.AssemblyReference.cache
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.AssemblyInfoInputs.cache
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.AssemblyInfo.cs
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.csproj.CoreCompileInputs.cache
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.dll
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\refint\DapperTutorial.Core.dll
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\DapperTutorial.Core.pdb
+C:\Users\hutud\source\repos\DapperTutorial\DapperTutorial.Core\obj\Debug\net6.0\ref\DapperTutorial.Core.dll
