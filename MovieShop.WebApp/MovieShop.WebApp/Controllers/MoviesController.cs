@@ -6,6 +6,12 @@ namespace MovieShop.WebApp.Controllers
     {
         public IActionResult Index()
         {
+
+            return View();
+        }
+        public IActionResult Details()
+        {
+
             return View();
         }
     }

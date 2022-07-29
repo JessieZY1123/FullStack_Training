@@ -1,0 +1,73 @@
+﻿
+<div class="container" style="height:500px;">
+  <div class="row bg-black" style="height:40%">
+    @*<img src="..." class="img-fluid" alt="...">*@
+    <div class="col-3">
+      <img src="..." class="img-thumbnail" alt="...">
+    </div>
+
+    <div class="col-6">
+        <div class="row mt-2">
+            <h3 style="color:white;"> MovieName @*<span class="badge bg-secondary">New</span>*@</h3>
+            <h5 style="color:white; font-size:15px; font-weight:lighter"> Tagline</h5>
+        </div>
+      
+        <div class="row">
+            <div class="col-3">
+                  @*  @foreach (var m in Model)
+                    {*@
+                        <h5 style="color: white; font-size:15px; font-weight: lighter">
+                         m | year
+                    </h5>
+                 @*   }*@
+             </div>
+             <div class="col-9">
+                 <span class="badge rounded-pill bg-secondary" >Secondary</span>
+                 <span class="badge rounded-pill bg-secondary" >Secondary</span>
+                 <span class="badge rounded-pill bg-secondary" >Secondary</span>
+             </div>
+        </div>
+        <div class="row">
+            <div class="col-3">
+                <span class="badge bg-success" style ="width:30px;">8.9</span>
+            </div>            
+        </div>
+        <div class="row">
+             <p class="text-sm-start font-monospace" style="color:whitesmoke" > Description </p>
+        </div>
+    </div>
+
+    <div class="col-3 mt-3">
+     <button type="button" class="btn btn-dark btn-outline-light">Secondary</button>
+     <button type="button" class="btn btn-secondary">Secondary</button>
+    </div>
+  </div>
+
+  <div class="row mt-3 " style="height:60%">
+    <div class="col-4">
+      <ul class="list-group">
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+               A list item
+          <span class="badge bg-primary rounded-pill">14</span>
+           </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+             A second list item
+            <span class="badge bg-primary rounded-pill">2</span>
+            </li>
+         <li class="list-group-item d-flex justify-content-between align-items-center">
+             A third list item
+         <span class="badge bg-primary rounded-pill">1</span>
+         </li>
+        </ul>
+    </div>
+    <div class="col-8">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">An item</li>
+        <li class="list-group-item">A second item</li>
+        <li class="list-group-item">A third item</li>
+        <li class="list-group-item">A fourth item</li>
+        <li class="list-group-item">And a fifth one</li>
+</ul>
+    </div>
+  </div>
+</div>
