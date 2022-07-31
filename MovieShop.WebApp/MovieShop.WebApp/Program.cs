@@ -16,7 +16,8 @@ builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<ICastRepository, CastRepository>();
 
 
-//builder.Services.AddScoped<ICastService, CastService>();
+builder.Services.AddScoped<ICastService, CastService>();
+builder.Services.AddScoped<IMovieService, MovieService>();
 
 
 var app = builder.Build();

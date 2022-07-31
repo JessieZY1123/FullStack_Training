@@ -6,14 +6,15 @@ namespace MovieShop.Infrastructure.Service
 {
     public class CastService : ICastService
     {
-        ICastRepository _castRepository;
+        ICastRepository castRepository;
         public CastService(ICastRepository castRepository)
         {
-            _castRepository = castRepository;   
+            this.castRepository = castRepository;   
         }
+
         public async Task<CastModel> GetCastDetail(int id)
         {
-            var CastDetails = await _castRepository.GetById(id);
+            var CastDetails = await castRepository.GetById(id);
             
             var castModel = new CastModel
             {

@@ -1,18 +1,28 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using MovieShop.ApplicationCore.Contracts.Services;
 
 namespace MovieShop.WebApp.Controllers
 {
+
     public class MoviesController : Controller
     {
+        IMovieService movieService;
+
+        public MoviesController(IMovieService movieService)
+        {
+            this.movieService = movieService;
+        }
+
         public IActionResult Index()
         {
 
             return View();
         }
-        public IActionResult Details()
+        [HttpGet]
+        public async Task<IActionResult> Details(int id)
         {
-
-            return View();
+            var movieDetails = await movieService.GetMovieDetailsAsync(id);
+            return View(movieDetails);
         }
     }
 }
