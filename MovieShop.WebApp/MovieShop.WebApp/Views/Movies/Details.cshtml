@@ -118,18 +118,7 @@
         <h5 class="md-3">CAST</h5>
         <hr style="border: 1px solid lightgray;" />
         <ul class="list-group list-group-flush">
-           @*  @foreach (var cast in @Model)
-            {
-                <li class="list-group-item" >
-                    <div class='actor' style="display:flex;  align-items: center;">
-                        <a asp-controller="Cast" asp-action="Detail" asp-route-id="@cast.Id">
-                            <img src="@cast.ProfilePath" style=" width: 60px; height:60px; border-radius:30px; margin-right: 80px;" onclick="" />
-                        </a>
-                        <div style="width: 300px;"><p>@cast.Name</p></div>
-                    </div>
-                </li>
 
-            }*@
               <li class="list-group-item">A second item</li>
               <li class="list-group-item">A third item</li>
               <li class="list-group-item">A fourth item</li>
