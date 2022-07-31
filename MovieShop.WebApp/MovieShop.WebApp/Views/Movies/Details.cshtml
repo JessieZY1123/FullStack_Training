@@ -1,4 +1,4 @@
-﻿
+﻿@model IEnumerable<CastModel>
 <div class="container" style="height:500px;">
   <div class="row bg-black" style="height:40%">
     @*<img src="..." class="img-fluid" alt="...">*@
@@ -38,36 +38,103 @@
     </div>
 
     <div class="col-3 mt-3">
-     <button type="button" class="btn btn-dark btn-outline-light">Secondary</button>
-     <button type="button" class="btn btn-secondary">Secondary</button>
+        <div class="row">
+            <button type="button" class="btn btn-dark btn-outline-light col-6 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="">REVIEW </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="ReviewModalLabel">Review</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                    <form>
+                        <div class="mb-3">
+                        <label for="Rating" class="col-form-label">Rating</label>
+                        <input type="text" class="form-control" id="Rating">
+                        </div>
+                        <div class="mb-3">
+                        <label for="Review-text" class="col-form-label">Review:</label>
+                        <textarea class="form-control" id="Review-text"></textarea>
+                        </div>
+                    </form>
+                    </div>
+                    <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Send message</button>
+                    </div>
+                </div>
+                </div>
+        </div>
+        </div>
+        <div class="row">
+            <button type="button" class="btn btn-dark btn-outline-light col-6 mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">BUY</button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="BuyModalLabel">BUY</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                <h5>Popover in a modal</h5>
+                <p>This
+                    <a href="#" role="button" class="btn btn-secondary popover-test" title="Popover title" data-bs-content="Popover body content is set in this attribute.">button</a> 
+                    triggers a popover on click.</p>
+                </div>
+                <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="submit" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
     </div>
-  </div>
-
+</div>
   <div class="row mt-3 " style="height:60%">
-    <div class="col-4">
-      <ul class="list-group">
+
+    <div class="col-4" style="background-color:#FaFafa">
+      <h5 class="md-3">Movie Facts</h5>
+      <hr style="border: 1px solid lightgray;" />
+      <ul class="list-group list-group-flush " >
           <li class="list-group-item d-flex justify-content-between align-items-center">
                A list item
           <span class="badge bg-primary rounded-pill">14</span>
            </li>
-                <li class="list-group-item d-flex justify-content-between align-items-center">
-             A second list item
-            <span class="badge bg-primary rounded-pill">2</span>
-            </li>
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+                 A second list item
+           <span class="badge bg-primary rounded-pill">2</span>
+           </li>
          <li class="list-group-item d-flex justify-content-between align-items-center">
              A third list item
          <span class="badge bg-primary rounded-pill">1</span>
          </li>
         </ul>
     </div>
+
+
     <div class="col-8">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">An item</li>
-        <li class="list-group-item">A second item</li>
-        <li class="list-group-item">A third item</li>
-        <li class="list-group-item">A fourth item</li>
-        <li class="list-group-item">And a fifth one</li>
-</ul>
+        <h5 class="md-3">CAST</h5>
+        <hr style="border: 1px solid lightgray;" />
+        <ul class="list-group list-group-flush">
+           @*  @foreach (var cast in @Model)
+            {
+                <li class="list-group-item" >
+                    <div class='actor' style="display:flex;  align-items: center;">
+                        <a asp-controller="Cast" asp-action="Detail" asp-route-id="@cast.Id">
+                            <img src="@cast.ProfilePath" style=" width: 60px; height:60px; border-radius:30px; margin-right: 80px;" onclick="" />
+                        </a>
+                        <div style="width: 300px;"><p>@cast.Name</p></div>
+                    </div>
+                </li>
+
+            }*@
+              <li class="list-group-item">A second item</li>
+              <li class="list-group-item">A third item</li>
+              <li class="list-group-item">A fourth item</li>
+              <li class="list-group-item">And a fifth one</li>
+        </ul>
     </div>
   </div>
 </div>

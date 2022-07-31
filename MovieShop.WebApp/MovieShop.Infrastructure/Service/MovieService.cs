@@ -1,6 +1,6 @@
 ﻿namespace MovieShop.Infrastructure.Service
 {
-    internal class MovieService
+    public class MovieService
     {
     }
 }

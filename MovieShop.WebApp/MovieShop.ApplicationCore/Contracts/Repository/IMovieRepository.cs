@@ -1,6 +1,9 @@
-﻿namespace MovieShop.ApplicationCore.Contracts.Repository
+﻿using MovieShop.ApplicationCore.Entities;
+
+namespace MovieShop.ApplicationCore.Contracts.Repository
 {
-    public interface IMovieRepository
+    public interface IMovieRepository:IRepository<Movie>
     {
+        
     }
 }

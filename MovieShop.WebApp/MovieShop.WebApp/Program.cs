@@ -1,7 +1,23 @@
+using MovieShop.ApplicationCore.Contracts.Repository;
+using MovieShop.ApplicationCore.Contracts.Services;
+using MovieShop.Infrastructure.Data;
+using MovieShop.Infrastructure.Repository;
+using MovieShop.Infrastructure.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+builder.Services.AddSqlServer<MovieDbContext>(builder.Configuration.GetConnectionString("MovieShop"));
+
+builder.Services.AddScoped<IMovieRepository, MovieRepository>();
+builder.Services.AddScoped<ICastRepository, CastRepository>();
+
+
+//builder.Services.AddScoped<ICastService, CastService>();
+
 
 var app = builder.Build();
 

@@ -13,3 +13,5 @@ C:\Users\hutud\source\repos\MovieShop.WebApp\MovieShop.Infrastructure\obj\Debug\
 C:\Users\hutud\source\repos\MovieShop.WebApp\MovieShop.Infrastructure\obj\Debug\net6.0\refint\MovieShop.Infrastructure.dll
 C:\Users\hutud\source\repos\MovieShop.WebApp\MovieShop.Infrastructure\obj\Debug\net6.0\MovieShop.Infrastructure.pdb
 C:\Users\hutud\source\repos\MovieShop.WebApp\MovieShop.Infrastructure\obj\Debug\net6.0\ref\MovieShop.Infrastructure.dll
+C:\Users\hutud\source\repos\MovieShop.WebApp\MovieShop.Infrastructure\bin\Debug\net6.0\MovieShop.Infrastructure.runtimeconfig.json
+C:\Users\hutud\source\repos\MovieShop.WebApp\MovieShop.Infrastructure\obj\Debug\net6.0\MovieShop.Infrastructure.genruntimeconfig.cache
