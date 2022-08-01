@@ -1,0 +1,17 @@
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\bin\Debug\net6.0\CustomerCRM.Infrastructure.deps.json
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\bin\Debug\net6.0\CustomerCRM.Infrastructure.runtimeconfig.json
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\bin\Debug\net6.0\CustomerCRM.Infrastructure.dll
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\bin\Debug\net6.0\CustomerCRM.Infrastructure.pdb
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\bin\Debug\net6.0\CustomerCRM.Core.dll
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\bin\Debug\net6.0\CustomerCRM.Core.pdb
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.AssemblyInfo.cs
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.csproj.CopyComplete
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.dll
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\refint\CustomerCRM.Infrastructure.dll
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.pdb
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\CustomerCRM.Infrastructure.genruntimeconfig.cache
+C:\Users\hutud\source\repos\CustomerCRM\CustomerCRM.Infrastructure\obj\Debug\net6.0\ref\CustomerCRM.Infrastructure.dll
