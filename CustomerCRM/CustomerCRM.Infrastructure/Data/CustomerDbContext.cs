@@ -1,4 +1,5 @@
 ﻿using CustomerCRM.Core.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -8,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace CustomerCRM.Infrastructure.Data
 {
-    public class CustomerDbContext: DbContext
+    public class CustomerDbContext: IdentityDbContext<ApplicationUser>
     {
         //We are passing it to the base. 
         //base means we are calling the base class constructor.

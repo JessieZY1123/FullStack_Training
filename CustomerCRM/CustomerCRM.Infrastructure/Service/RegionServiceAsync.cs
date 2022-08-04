@@ -15,7 +15,7 @@ namespace CustomerCRM.Infrastructure.Service
     // and give this Model object some Entity properties
         public class RegionServiceAsync : IRegionServiceAsync
         {
-            IRegionRepositoryAsync regionRepository;
+             private readonly IRegionRepositoryAsync regionRepository;
             public RegionServiceAsync(IRegionRepositoryAsync _regionRepository)
             {
                 regionRepository = _regionRepository;
